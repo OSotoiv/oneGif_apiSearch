@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container mb-3 d-flex justify-content-center mt-4">
+    <form class="row g-3">
+      <div class="col col-auto">
+        <label for="searchTerm" class="form-label">Search Term</label>
+      </div>
+      <div class="col col-auto">
+        <input type="text" minlength="1" maxlength="10" class="form-control" id="searchTerm"
+          aria-describedby="Search Term" autofocus>
+      </div>
+      <div class="col col-auto d-flex align-items-end">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    <button id="reset" class="btn btn-danger ms-2">Reset</button>
+  </div>
+  <div id="results" class="container">
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

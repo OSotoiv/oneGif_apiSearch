@@ -1,0 +1,13 @@
+#results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    /* height: 850px; */
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
